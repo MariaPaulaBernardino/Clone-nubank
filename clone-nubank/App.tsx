@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { styles } from "./Styles2";
-import BackgroundImage from "./fundo_nubank.png";
+import BackgroundImage from "./fundo_nubank1.png";
 import SkillCircle from "./Nubank_Logo1.png";
 
 const App = () => {
@@ -11,8 +11,10 @@ const App = () => {
       <Image source={BackgroundImage} style={styles.backgroundImage} />
       <View style={styles.header}>
         <Image source={SkillCircle} style={styles.logo} />
-        <Text style={styles.countrySelectorText}>Brasil</Text>
-        <Icon name="keyboard-arrow-down" size={20} color="#fff" style={styles.arrowDownIcon} />
+        <View style={styles.countrySelectorContainer}>
+          <Text style={styles.countrySelectorText}>Brasil</Text>
+          <Icon name="keyboard-arrow-down" size={20} color="#fff" style={styles.arrowDownIcon} />
+        </View>
       </View>
 
       <View style={styles.textContainer}>

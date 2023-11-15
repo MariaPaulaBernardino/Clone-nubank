@@ -3,7 +3,7 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { styles } from "./Styles";
 import BackgroundImage from "../../assets/fundo_nubank1.png";
-import SkillCircle from "../../assets/logo.png";
+import SkillCircle from "../../assets/Nubank_Logo1.png";
 
 const Login = () => {
   return (

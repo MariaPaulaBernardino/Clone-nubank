@@ -6,7 +6,7 @@ import Home from "./src/pages/home/Home";
 
 const App = () => {
   return (
-    <Cadastro />
+    <Login />
   )
 };
 

@@ -1,15 +1,15 @@
 import React from "react";
 import { Image, ScrollView, Text, View } from "react-native";
-import boleto from "./boleto.png";
-import dinheiro from "./dinheiro.png";
-import Logo from "./logo.png";
-import Mastercard from "./mastercard.png";
-import pix from "./pix.png";
-import Setting from "./setting.png";
-import Wallet from "./Wallet.png";
+import boleto from "../../assets/boleto.png";
+import dinheiro from "../../assets/dinheiro.png";
+import Logo from "../../assets/logo.png";
+import Mastercard from "../../assets/mastercard.png";
+import pix from "../../assets/pix.png";
+import Setting from "../../assets/setting.png";
+import Wallet from "../../assets/Wallet.png";
 import { styles } from "./styles"; 
 
-const App = () => {
+const Home = () => {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
@@ -61,4 +61,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;

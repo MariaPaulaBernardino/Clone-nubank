@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { styles } from "./styles3";
+import { styles } from "./styles";
 
-const App = () => {
+const Cadastro = () => {
   const [cpf, setCpf] = useState<string>('');
 
   const formatCpf = (inputCpf: string): string => {
@@ -46,4 +46,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Cadastro;
